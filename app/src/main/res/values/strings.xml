@@ -1,0 +1,62 @@
+<resources>
+    <string name="app_name" translatable="false">Discord LINE Stickers</string>
+
+    <string name="act_edit">Edit</string>
+    <string name="act_about">About</string>
+
+    <string name="default_sticker">STICKER</string>
+    <string name="default_count">40</string>
+    <string name="default_status">STATUS</string>
+
+    <string name="menu_add">Add</string>
+    <string name="menu_edit">Edit</string>
+    <string name="menu_setting">Setting</string>
+    <string name="menu_about">About</string>
+
+    <string name="add_name">Sticker name</string>
+    <string name="add_id">Sticker ID</string>
+    <string name="add_count">Count (Usually 40)</string>
+    <string name="add_ok">OK</string>
+    <string name="add_cancel">Cancel</string>
+
+    <string name="btn_save">Save</string>
+
+    <string name="txt_loading">LOADING</string>
+    <string name="txt_error">ERROR</string>
+
+    <string name="msg_empty">Menu > Add to add sticker\nTutorial can be found here\n..</string>
+    <string name="msg_invalid_input">Invalid input</string>
+    <string name="msg_already_exists">Already exists</string>
+    <string name="msg_adding">Adding</string>
+    <string name="msg_copied">Sticker copied to clipboard</string>
+    <string name="msg_refreshing">Refreshing</string>
+
+    <string name="about_author">JeffShee@ねくもりそふと</string>
+    <string name="about_text">
+        <![CDATA[
+        <font color="#5e6165">
+        <p>
+        <strong>ABOUT</strong>
+        <br />
+        This app provide an easy way to paste the URLs of LINE\'s sticker into Discord, which is inspired by
+        <a href="https://github.com/awaken1ng/bd-linestickers">BetterDiscord Line Stickers Plugin</a>.
+        This app isn\'t a plugin <em>unfortunately</em>, but a standalone app and therefore doesn\'t require BetterDiscord.
+        </p>
+        <p>
+        <strong>USAGE</strong>
+        <br />
+        You need to find out the required IDs before using those stickers, which might be a little bit tricky for some inexperienced users. Don\'t worry, tutorial can be found <a href="https://https//github.com/">here</a>. The workflow is almost the same with the BD Plugin counterpart by the way.
+        </p>
+        <p>
+        <strong>ATTRIBUTION</strong>
+        <br />Icon made by <a href="https://www.flaticon.com/authors/baianat">Baianat</a> from www.flaticon.com
+        </p>
+        <p>
+        <strong>DISCLAIMER</strong>
+        <br />
+        This app is not affiliated with, maintained, authorized, endorsed or sponsored by the LINE Corporation, Discord Inc. or any of their affiliates. Downloaded content is for display purpose only. Nothing is re-uploaded. We take no resposibility or liability for using this app.
+        </p>
+        </font>
+        ]]>
+    </string>
+</resources>
