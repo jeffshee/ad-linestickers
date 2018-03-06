@@ -13,18 +13,23 @@
     <string name="menu_setting">Setting</string>
     <string name="menu_about">About</string>
 
-    <string name="add_name">Sticker name</string>
-    <string name="add_id">Sticker ID</string>
-    <string name="add_count">Count (Usually 40)</string>
+    <string name="add_name">TITLE</string>
+    <string name="add_id">FIRST STICKER ID</string>
+    <string name="add_count">COUNT (USUALLY 40)</string>
     <string name="add_ok">OK</string>
     <string name="add_cancel">Cancel</string>
 
     <string name="btn_save">Save</string>
+    <string name="btn_ok">OK</string>
 
     <string name="txt_loading">LOADING</string>
     <string name="txt_error">ERROR</string>
 
-    <string name="msg_empty">Menu > Add to add sticker\nTutorial can be found here\n..</string>
+    <string name="msg_welcome">Welcome</string>
+    <string name="msg_welcome_text">It seems like you\'re using this app for the first time.
+        Please, do read the about (Menu > About), as you need to do some configurations by your own.</string>
+    <string name="msg_tutorial_edit">Swipe left/right > Remove\nPress once > Edit\nHold+Drag > Reorder</string>
+    <string name="msg_empty">No sticker found\nMenu > Add to add sticker</string>
     <string name="msg_invalid_input">Invalid input</string>
     <string name="msg_already_exists">Already exists</string>
     <string name="msg_adding">Adding</string>
@@ -45,7 +50,7 @@
         <p>
         <strong>USAGE</strong>
         <br />
-        You need to find out the required IDs before using those stickers, which might be a little bit tricky for some inexperienced users. Don\'t worry, tutorial can be found <a href="https://https//github.com/">here</a>. The workflow is almost the same with the BD Plugin counterpart by the way.
+        You need to find out the required IDs before using those stickers, which might be a little bit tricky for some inexperienced users. Don\'t worry, tutorial can be found on <a href="https://github.com/jeffshee/ad-linestickers">GitHub page</a>. The workflow is almost the same with the BD Plugin counterpart by the way.
         </p>
         <p>
         <strong>ATTRIBUTION</strong>

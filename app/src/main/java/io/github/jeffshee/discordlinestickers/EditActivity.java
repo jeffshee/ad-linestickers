@@ -9,6 +9,7 @@ import android.support.v7.widget.RecyclerView;
 import android.support.v7.widget.helper.ItemTouchHelper;
 import android.view.View;
 import android.widget.Button;
+import android.widget.Toast;
 
 import com.google.gson.Gson;
 import com.google.gson.reflect.TypeToken;
@@ -42,6 +43,7 @@ public class EditActivity extends AppCompatActivity {
         ItemTouchHelper.Callback callback = new AdapterCallback(packAdapter);
         ItemTouchHelper itemTouchHelper = new ItemTouchHelper(callback);
         itemTouchHelper.attachToRecyclerView(recyclerView);
+        Toast.makeText(this, getString(R.string.msg_tutorial_edit), Toast.LENGTH_LONG).show();
     }
 
     private void getStickers() {

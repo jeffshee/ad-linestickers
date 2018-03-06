@@ -26,6 +26,7 @@ public class MainActivity extends AppCompatActivity {
 
     public static final String PACKAGE = "io.github.jeffshee.discordlinestickers";
     public static final String PREF_STICKER = PACKAGE + ".sticker";
+    public static final String PREF_WELCOME = PACKAGE + ".welcome";
     public static final String STICKER_KEY = PACKAGE + ".stickerkey";
     private static final int REQUEST_CODE = 1;
 
@@ -36,7 +37,6 @@ public class MainActivity extends AppCompatActivity {
     SharedPreferences preferences;
     RelativeLayout placeholder;
 
-    //TODO: Disclaimer, Tutorial (Usage)
     @Override
     protected void onActivityResult(int requestCode, int resultCode, Intent data) {
         switch (requestCode) {
@@ -75,6 +75,9 @@ public class MainActivity extends AppCompatActivity {
         }
         packAdapter = new PackAdapter(stickerList, this, false);
         recyclerView.setAdapter(packAdapter);
+        if(preferences.getBoolean(PREF_WELCOME, true)){
+            welcome();
+        }
     }
 
     @Override
@@ -153,5 +156,19 @@ public class MainActivity extends AppCompatActivity {
         builder.setNegativeButton(getString(R.string.add_cancel), null);
         builder.show();
 
+    }
+
+    private void welcome(){
+        AlertDialog.Builder builder = new AlertDialog.Builder(this);
+        builder.setTitle(getString(R.string.msg_welcome));
+        builder.setMessage(getString(R.string.msg_welcome_text));
+        builder.setPositiveButton(getString(R.string.btn_ok), new DialogInterface.OnClickListener() {
+            @Override
+            public void onClick(DialogInterface dialog, int which) {
+                preferences.edit().putBoolean(PREF_WELCOME, false).apply();
+            }
+        });
+        builder.setCancelable(false);
+        builder.show();
     }
 }
