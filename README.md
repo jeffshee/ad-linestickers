@@ -5,6 +5,15 @@ Any inquiries or problems, feel free to open an Issue.
 Provide an easy way to use LINE stickers with Android Discord, inspired by another project on GitHub: [BetterDiscord Line Stickers Plugin.](https://github.com/awaken1ng/bd-linestickers)  
 ![enter image description here](https://lh3.googleusercontent.com/adrXdOBX-BPlvWLVDHTPVK2LB18adXwvZ9wNMqUh0dn7N7TqlD2x3k4YkdS2t4f2jAQsGAHJrOBtPNtCe8j8q-BXRwTqDTJce9o2DXaQQl-w96qC4hUIzQykcw1poSRepYOJmlmldKWZPVkVrCcZsCdYOdzQqgRZKBRHjIII8LTJKMpxrQLBpf-b0g_l1GdZ1UaTW7i4DoErAb8oBClz6e2M4n87rk-YFkD-3GvOvGyqZmLz7UFWd7smcIqXg2Ue8JHsJqgFiz0OB2rxziZXIfarezv4NunnJeXGf7VO5SE0I1kYfufzOfj4eg9vEEHMQ-4126-7gqfzKOBop6rh8SqSjMUlDC6nkMhzebIc8t9TSUVA9JWaIifmOYGU8zeCFui9trA5cE5GHVL2Kb7LVRlmDM_5_LFsOWzBU431C2tdq_vFlHyWfREKmJX8PHeN33KRBBP3SZofDZwWc8ebwN2cOrQy665GeFOVXPoDSXUFL9_DSm3WA4Bn6z-cgrKd8G8w5FWxacpcVfavP5lcmDBMXfSEnvdMk_NLLb7AEXtlFT2FB9-tfV2qMlQeFS8oe7eUOHuqI6IpuSatwaDeFISTDGmQ-XTRFrKZNGk=w720-h616-no)
 
+## New Project!!
+Please refer to [LINEStickerKeyboard](https://github.com/jeffshee/LINEStickerKeyboard). ad-linestickers is now considered retired and will not be updated anymore. Thanks!
+
+What's different between new project and ad-linestickers:
+1. Completely rewriten!
+2. Using Android's Image Keyboard API, no more copy & paste fuss!
+3. Support both Static or Animated stickers!
+4. Stickers are easier to add!
+
 ## Adding stickers 
 
 ### Getting stickers
